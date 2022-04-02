@@ -1,0 +1,9 @@
+.page-navigation {
+    display: flex;
+    gap: 1rem;
+
+    .link {
+        text-decoration: none;
+        font-weight: 700;
+    }
+}
