@@ -1,6 +1,7 @@
 import React from 'react';
 import createRoot from 'react-dom';
 import './index.css';
+
 import Homepage from './container/Homepage';
 import Movies from './container/Movies';
 import Series from './container/Series';
