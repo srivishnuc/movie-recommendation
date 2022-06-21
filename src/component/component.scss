@@ -7,3 +7,48 @@
         font-weight: 700;
     }
 }
+
+
+
+.contentCard {
+
+    // display: flex;
+
+    .is-hidden {
+        display: none;
+    }
+
+    .content {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-flow: column;
+        width: 50vw;
+        height: auto;
+
+
+
+        .content-detail {
+            line-height: 2rem;
+            background-color: bisque;
+            color: black;
+
+            span {
+                background-color: inherit;
+                color: inherit;
+            }
+        }
+
+        .overview-content {
+            margin-left: 5rem;
+
+            label {
+                background-color: bisque;
+                color: black;
+            }
+
+            // margin-top: -1.25rem;
+        }
+
+    }
+}
